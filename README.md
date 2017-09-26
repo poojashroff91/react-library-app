@@ -23,3 +23,19 @@ Click [here](https://github.com/StephenGrider/ReactStarter/releases) then downlo
 > npm install
 > npm start
 ```
+
+
+## Pooja's notes
+Which components are in containers? 
+Components that have a direct connection to redux should be containers. 
+Things that need to be re-rendered every time state changes.
+
+Steps to promote component to container
+1. Import react-redux 'connect'
+2. Create a mapStateToProps function
+3. Connect the function to the component
+
+
+Some state pieces need to change over time.
+This is done with actions.
+
