@@ -39,3 +39,4 @@ Steps to promote component to container
 Some state pieces need to change over time.
 This is done with actions.
 
+Reducers can use actions to change app state.
