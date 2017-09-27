@@ -40,3 +40,5 @@ Some state pieces need to change over time.
 This is done with actions.
 
 Reducers can use actions to change app state.
+
+Application state and Component State are completely different and not connected to each other in any way
